@@ -1,0 +1,1 @@
+The main aim of this task is to setup the required structure and tools for initiating the new python project
