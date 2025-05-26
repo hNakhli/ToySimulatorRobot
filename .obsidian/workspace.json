@@ -164,6 +164,11 @@
   },
   "active": "84859ddca1d7e44f",
   "lastOpenFiles": [
+    "src/Utilities/__pycache__/log.cpython-312.pyc",
+    "src/Utilities/__pycache__",
+    "src/Utilities/log.py",
+    "src/Utilities/logger.py",
+    "src/Utilities",
     "Docs/Version 0.1.0/TASK-3 Implement a logger.md",
     "Docs/Version 0.1.0/TASK-4 Defining a generic parsing method and logging the results into the console.md",
     "Docs/Version 0.1.0/TASK-5 implementing commands and validation.md",
@@ -182,10 +187,6 @@
     "tests/__pycache__",
     "tests/test_Robot.py",
     "src/__pycache__/Robot.cpython-312.pyc",
-    "src/Robot.py",
-    "pytest-cache-files-whuqyzmi",
-    "tests/Robot/__pycache__/test_Robot.cpython-312-pytest-8.3.5.pyc",
-    "tests/Robot/__pycache__",
     "Pasted image 20250526115837.png",
     "Pasted image 20250526121910.png",
     "Docs/Version 0/TASK-1 Python installation and setting up new project.md"
