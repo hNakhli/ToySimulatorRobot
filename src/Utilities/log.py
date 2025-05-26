@@ -1,5 +1,4 @@
 import logging
-import sys
 
 '''
 Implementing an internal logger class that could easily be modified to enable 
@@ -8,7 +7,6 @@ and disable the logging. At the moment it will be logging to console
 class Log:
     enabled = True
     logger:logging.Logger = None
-    
     
     '''
     Note that in practice, we can inject the logger into this method
