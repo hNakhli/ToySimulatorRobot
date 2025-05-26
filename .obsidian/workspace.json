@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Architecture and Overall Planning.md",
+                "file": "Docs/Version 0.1.0/TASK-4 Defining a generic parsing method and logging the results into the console.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Architecture and Overall Planning"
+              "title": "TASK-4 Defining a generic parsing method and logging the results into the console"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Architecture and Overall Planning.md",
+                "file": "Docs/Version 0.1.0/TASK-4 Defining a generic parsing method and logging the results into the console.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Architecture and Overall Planning"
+              "title": "Backlinks for TASK-4 Defining a generic parsing method and logging the results into the console"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Architecture and Overall Planning.md",
+                "file": "Docs/Version 0.1.0/TASK-4 Defining a generic parsing method and logging the results into the console.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Architecture and Overall Planning"
+              "title": "Outgoing links from TASK-4 Defining a generic parsing method and logging the results into the console"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Architecture and Overall Planning.md"
+                "file": "Docs/Version 0.1.0/TASK-4 Defining a generic parsing method and logging the results into the console.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Architecture and Overall Planning"
+              "title": "Outline of TASK-4 Defining a generic parsing method and logging the results into the console"
             }
           }
         ]
@@ -164,26 +164,25 @@
   },
   "active": "84859ddca1d7e44f",
   "lastOpenFiles": [
-    "tests/__pycache__/__init__.cpython-312.pyc",
-    "tests/__init__.py",
-    "tests/Utilities/__pycache__/test_Log_provider.cpython-312-pytest-8.3.5.pyc",
-    "tests/Utilities/__pycache__",
-    "src/Commands/__pycache__/CommandParser.cpython-312.pyc",
-    "tests/Commands/__pycache__/test_CommandParser.cpython-312-pytest-8.3.5.pyc",
-    "tests/Commands/__pycache__",
-    "tests/Utilities/test_Log_provider.py",
-    "tests/Utilities/test_Log_provider",
-    "tests/Utilities",
-    "tests/Commands/test_CommandParser.py",
     "Docs/Version 0.1.0/TASK-3 Implement a logger.md",
     "Docs/Version 0.1.0/TASK-4 Defining a generic parsing method and logging the results into the console.md",
-    "Docs/Version 0.1.0/TASK-5 implementing commands and validation.md",
     "Docs/Version 0.1.0/TASK-2 Architecture planning.md",
     "Docs/Version 0.1.0/TASK-1 Python installation and setting up new project.md",
+    "Docs/Version 0.1.0/TASK-5 implementing commands and validation.md",
+    "Docs/Version 0.1.0/Mars Rover Technical Test - Python.pdf",
+    "src/Examples/Example3.txt",
+    "src/Examples/Example2.txt",
+    "src/Examples/Example1.txt",
+    "src/Examples",
+    "src/Commands/__pycache__/ReportCommand.cpython-312.pyc",
+    "src/Commands/__pycache__/MoveCommand.cpython-312.pyc",
+    "src/Example3.txt",
+    "src/Exanoke3.txt",
+    "src/Example2.txt",
+    "Docs/Architecture and Overall Planning.md",
     "Docs/Images/uvCommand.png",
     "Docs/Images/Initial Diagram.png",
     "Docs/Images/Cartesian Coordinate System.png",
-    "Docs/Architecture and Overall Planning.md",
     "Docs/Images/Angles and units.png",
     "Docs/Development and Build tools.md",
     "README.md",

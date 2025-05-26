@@ -10,7 +10,7 @@ class CommandParser:
         self.logger = logger
         
     def Register(self, command: AbstractCommand.AbstractCommand):
-        self.logger.Debug("registering command: " + command.name)
+        self.logger.Debug("Registering command: " + type(command).__name__)
         self.abstractCommands.append(command)
         
     def TryExecute(self, line: str) -> bool:

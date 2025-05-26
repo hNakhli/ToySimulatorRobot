@@ -21,7 +21,8 @@ class Log:
         logging.basicConfig(format=logFormat, level=logLevel)
         self.logger = logging.getLogger(__name__)
         
-        logging.info('started')
+        if self.enabled is True:
+            logging.info('started')
     
     # This log level is for anything that is reported as an error
     def Error(self, message:str):
