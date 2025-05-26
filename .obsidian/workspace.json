@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2b67b4ca2398185c",
+        "id": "ff9a66ede0179115",
         "type": "tabs",
         "children": [
           {
-            "id": "b48e358780a95045",
+            "id": "84859ddca1d7e44f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 365.5
   },
   "right": {
     "id": "c39ff5cd3aea892e",
@@ -162,13 +162,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b48e358780a95045",
+  "active": "84859ddca1d7e44f",
   "lastOpenFiles": [
+    "Docs/Version 0.1.0/TASK-3 Implement a logger.md",
+    "Docs/Version 0.1.0/TASK-4 Defining a generic parsing method and logging the results into the console.md",
+    "Docs/Version 0.1.0/TASK-5 implementing commands and validation.md",
+    "Docs/Version 0.1.0/TASK-2 Architecture planning.md",
     "Docs/Version 0.1.0/TASK-1 Python installation and setting up new project.md",
     "Docs/Version 0.1.0/Mars Rover Technical Test - Python.pdf",
+    "Docs/Images/uvCommand.png",
+    "Docs/Images/Initial Diagram.png",
+    "Docs/Images/Cartesian Coordinate System.png",
     "Docs/Architecture and Overall Planning.md",
+    "Docs/Images/Angles and units.png",
     "Docs/Development and Build tools.md",
-    "Docs/uvCommand.png",
+    "Docs/Images",
     "README.md",
     "tests/__pycache__/test_Robot.cpython-312-pytest-8.3.5.pyc",
     "tests/__pycache__",
@@ -178,7 +186,6 @@
     "pytest-cache-files-whuqyzmi",
     "tests/Robot/__pycache__/test_Robot.cpython-312-pytest-8.3.5.pyc",
     "tests/Robot/__pycache__",
-    "tests/Robot/test_Robot.py",
     "Pasted image 20250526115837.png",
     "Pasted image 20250526121910.png",
     "Docs/Version 0/TASK-1 Python installation and setting up new project.md"
