@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "TASK-4 Defining a generic parsing method and logging the results into the console"
             }
+          },
+          {
+            "id": "a5805ebb7d316d98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Architecture and Overall Planning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Architecture and Overall Planning"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +55,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -162,29 +178,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84859ddca1d7e44f",
+  "active": "a5805ebb7d316d98",
   "lastOpenFiles": [
-    "Docs/Version 0.1.0/TASK-3 Implement a logger.md",
+    "src/__pycache__/Map.cpython-312.pyc",
+    "tests/__pycache__/test_map.cpython-312-pytest-8.3.5.pyc",
+    "src/Map.py",
+    "tests/test_map.py",
+    "src/map.py",
+    "src/__pycache__/RobotProvider.cpython-312.pyc",
+    "tests/__pycache__/test_RobotProvider.cpython-312-pytest-8.3.5.pyc",
+    "tests/test_RobotProvider.py",
+    "src/RobotProvider.py",
+    "Docs/Development and Build tools.md",
+    "Docs/Architecture and Overall Planning.md",
+    "Docs/Version 0.1.0/TASK-5 implementing commands and validation.md",
     "Docs/Version 0.1.0/TASK-4 Defining a generic parsing method and logging the results into the console.md",
+    "Docs/Version 0.1.0/TASK-3 Implement a logger.md",
     "Docs/Version 0.1.0/TASK-2 Architecture planning.md",
     "Docs/Version 0.1.0/TASK-1 Python installation and setting up new project.md",
-    "Docs/Version 0.1.0/TASK-5 implementing commands and validation.md",
     "Docs/Version 0.1.0/Mars Rover Technical Test - Python.pdf",
-    "src/Examples/Example3.txt",
-    "src/Examples/Example2.txt",
-    "src/Examples/Example1.txt",
-    "src/Examples",
-    "src/Commands/__pycache__/ReportCommand.cpython-312.pyc",
-    "src/Commands/__pycache__/MoveCommand.cpython-312.pyc",
-    "src/Example3.txt",
-    "src/Exanoke3.txt",
-    "src/Example2.txt",
-    "Docs/Architecture and Overall Planning.md",
     "Docs/Images/uvCommand.png",
     "Docs/Images/Initial Diagram.png",
     "Docs/Images/Cartesian Coordinate System.png",
     "Docs/Images/Angles and units.png",
-    "Docs/Development and Build tools.md",
+    "src/Examples/Example3.txt",
     "README.md",
     "Pasted image 20250526115837.png",
     "Pasted image 20250526121910.png",

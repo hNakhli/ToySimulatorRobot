@@ -14,3 +14,18 @@ class Robot:
         
     def Report(self) -> str:
         return str(int(self.Position[0])) + "," + str(int(self.Position[1])) + "," + self.Face
+    
+    def UpdatePlacement(self, x, y, face):
+        self.Position = np.array((x, y))
+        self.ChangeFace(face)
+        self.Face = face
+        
+    def RotateByAngle(self, angleInDegree):
+        pass
+    
+    def ChangeFace(self, face):
+        pass
+     
+    
+        
+        
