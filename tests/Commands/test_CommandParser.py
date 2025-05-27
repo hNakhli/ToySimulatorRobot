@@ -27,7 +27,7 @@ def test_parse_command_found(UnderTest):
 def test_parse_multiple_commands_found(UnderTest):
     testInputLine = "LEFT"
     leftCommand = LeftCommand(TestLogProvider(), RobotProvider())
-    rightCommand = RightCommand(TestLogProvider())
+    rightCommand = RightCommand(TestLogProvider(), RobotProvider())
     UnderTest.Register(leftCommand)
     UnderTest.Register(rightCommand)
     

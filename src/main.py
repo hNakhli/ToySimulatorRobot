@@ -5,6 +5,8 @@ from Commands.MoveCommand import MoveCommand
 from Commands.PlaceCommand import PlaceCommand
 from Commands.RightCommand import RightCommand
 from Commands.ReportCommand import ReportCommand
+from Region import Region
+from RobotProvider import RobotProvider
 from Utilities.Log import Log
 import os
 
@@ -18,17 +20,21 @@ def ParseFromFile(filepath: str, parser: CommandParser):
 
 if __name__ == "__main__":
     logger = Log()
-    parser = CommandParser(logger)
+    logger.enabled = True
     
-    parser.Register(LeftCommand(logger))
-    parser.Register(RightCommand(logger))
-    parser.Register(MoveCommand(logger))
-    parser.Register(PlaceCommand(logger))
-    parser.Register(ReportCommand(logger))
+    parser = CommandParser(logger)
+    robotProvider = RobotProvider()
+    region = Region(0, 0, 5, 5)
+    
+    parser.Register(LeftCommand(logger, robotProvider))
+    parser.Register(RightCommand(logger, robotProvider))
+    parser.Register(MoveCommand(logger, robotProvider, region))
+    parser.Register(PlaceCommand(logger, robotProvider, region))
+    parser.Register(ReportCommand(logger, robotProvider))
     
     currentPath = os.path.dirname(__file__)
     subFolder = "Examples"
-    file = "Example3.txt"
+    file = "ExampleFailingPath_MutliPlace.txt"
     absPath = os.path.join(currentPath, subFolder, file)
     
     ParseFromFile(absPath, parser)

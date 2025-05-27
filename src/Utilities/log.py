@@ -28,7 +28,7 @@ class Log:
     def Error(self, message:str):
         if not self.enabled:
             return
-        self.logger.info(message)
+        self.logger.error(message)
     
     # This log level is mostly for information to provide additional info
     def Info(self, message:str):

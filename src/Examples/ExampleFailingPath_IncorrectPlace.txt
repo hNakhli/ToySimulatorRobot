@@ -1,0 +1,17 @@
+PLACE -1000,2,EAST
+MOVE
+MOVE
+REPORT
+--- This should be the first line where we start to get report
+PLACE 1,2,EAST
+LEFT
+MOVE
+MOVE
+REPORT
+--- Expected 1,4,NORTH
+PLACE 1,2,EAST
+RIGHT
+MOVE
+MOVE
+REPORT
+--- Expected 1,0,SOUTH

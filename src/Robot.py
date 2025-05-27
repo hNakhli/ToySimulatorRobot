@@ -1,6 +1,9 @@
 import numpy as np
 from Face import Face
 
+# This is the base entity for the Robot
+# Most logic / functionality has been kept away from this class
+# and it is mostly treated as a plain object
 class Robot:
     Position:np.array = ([0, 0])
     Direction:np.array = ([1, 0])

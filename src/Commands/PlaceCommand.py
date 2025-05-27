@@ -1,4 +1,6 @@
 from Commands.AbstractCommand import AbstractCommand
+from Region import Region
+from RobotProvider import RobotProvider
 from Utilities.Log import Log
 from Face import Face
 
@@ -8,8 +10,10 @@ class PlaceCommand(AbstractCommand):
     x:int = None
     y:int = None
     
-    def __init__(self, logger:Log):
+    def __init__(self, logger:Log, robotProvider:RobotProvider, region:Region):
         self.logger = logger
+        self.robotProvider = robotProvider
+        self.region = region
         
     def ClearCache(self):
         self.face = None
@@ -39,7 +43,16 @@ class PlaceCommand(AbstractCommand):
         return False
     
     def TryExecute(self) -> bool:
-        self.logger.Debug("tried to execute PLACE commmand: " + type(self).__name__)
+        self.logger.Debug("trying to execute PLACE commmand: " + type(self).__name__)
+        
+        # Validate
+        if self.region.in_bound(self.x, self.y) is False:
+            self.logger.Error("The provided coordinates are out of bound")
+            return False
+        
+        ## assuming this is already correct due to the parsing above
+        self.robotProvider.place_robot(self.x, self.y, self.face)
+        self.logger.Debug("Placed the robot in the requested coordinate")
         return True
         
     

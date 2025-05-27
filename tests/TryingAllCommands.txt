@@ -1,0 +1,11 @@
+PLACE 0,0,NORTH
+RIGHT
+LEFT
+MOVE
+MOVE
+MOVE
+MOVE
+--- Incorrect text should be fine
+MOVE
+MOVE
+REPORT

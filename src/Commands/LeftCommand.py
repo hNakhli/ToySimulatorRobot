@@ -25,9 +25,9 @@ class LeftCommand(AbstractCommand):
             return False
         
         # Execute
-        self.logger.Debug("before: " + robot.Direction)
+        self.logger.Debug("before: " + str(robot.Direction))
         robot.Direction = DirectionHelper.rotate_left_90(robot.Direction)
-        self.logger.Debug("after: " + robot.Direction)
+        self.logger.Debug("after: " + str(robot.Direction))
         self.logger.Debug("Command succesful" + type(self).__name__)
         return True
         

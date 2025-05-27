@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ff9a66ede0179115",
+        "id": "8fd7fe955a38c2c6",
         "type": "tabs",
         "children": [
           {
-            "id": "84859ddca1d7e44f",
+            "id": "a77efcdbd768baf0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Version 0.1.0/TASK-4 Defining a generic parsing method and logging the results into the console.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TASK-4 Defining a generic parsing method and logging the results into the console"
-            }
-          },
-          {
-            "id": "a5805ebb7d316d98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docs/Architecture and Overall Planning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Architecture and Overall Planning"
+              "title": "README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,30 +163,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5805ebb7d316d98",
+  "active": "a77efcdbd768baf0",
   "lastOpenFiles": [
-    "src/__pycache__/Face.cpython-312.pyc",
-    "src/Face.py",
-    "src/Utilities/__pycache__/Face.cpython-312.pyc",
-    "tests/Utilities/__pycache__/test_Face.cpython-312-pytest-8.3.5.pyc",
-    "tests/Utilities/test_Face.py",
-    "tests/Utilities/test_Enum",
-    "src/Utilities/Face.py",
-    "src/Utilities/__pycache__/DirectionHelper.cpython-312.pyc",
-    "tests/Utilities/__pycache__/test_DirectionHelper.cpython-312-pytest-8.3.5.pyc",
-    "tests/Utilities/test_DirectionHelper.py",
-    "src/Utilities/DirectionHelper.py",
+    "tests/TryingAllCommands.txt",
+    "tests/Example3 copy.txt",
     "Docs/Development and Build tools.md",
     "Docs/Architecture and Overall Planning.md",
-    "Docs/Version 0.1.0/TASK-5 implementing commands and validation.md",
+    "tests/Commands/__pycache__/test_MoveCommand.cpython-312-pytest-8.3.5.pyc",
+    "tests/Commands/test_MoveCommand.py",
+    "Docs/Version 0.1.0/Mars Rover Technical Test - Python.pdf",
+    "tests/Example3.txt",
+    "tests/Example3txt",
+    "src/Examples/Example3 copy.txt",
+    "tests/__pycache__/test_main.cpython-312-pytest-8.3.5.pyc",
+    "tests/test_main.py",
+    "tests/test_main.py.cs",
+    "Docs/Images/Initial Diagram.png",
+    "Docs/Images/Angles and units.png",
+    "Docs/Images/Updated Diagram.png",
+    "Docs/Images/uvCommand.png",
+    "Docs/Images/Cartesian Coordinate System.png",
     "Docs/Version 0.1.0/TASK-4 Defining a generic parsing method and logging the results into the console.md",
+    "Docs/Version 0.1.0/TASK-5 implementing commands and validation.md",
     "Docs/Version 0.1.0/TASK-3 Implement a logger.md",
     "Docs/Version 0.1.0/TASK-2 Architecture planning.md",
     "Docs/Version 0.1.0/TASK-1 Python installation and setting up new project.md",
-    "Docs/Images/uvCommand.png",
-    "Docs/Images/Initial Diagram.png",
-    "Docs/Images/Cartesian Coordinate System.png",
-    "Docs/Images/Angles and units.png",
     "README.md",
     "Pasted image 20250526115837.png",
     "Pasted image 20250526121910.png",
