@@ -25,3 +25,7 @@ class Face(Enum):
             if face.name == faceStr:
                 return np.array([face.value[0], face.value[1]])
         return None
+    
+    @staticmethod
+    def face_exists(faceStr: str) -> bool:
+        return faceStr.upper in Face.__members__

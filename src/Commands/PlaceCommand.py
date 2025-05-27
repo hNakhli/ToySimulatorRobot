@@ -25,11 +25,13 @@ class PlaceCommand(AbstractCommand):
                 
                 self.x = int(x_str)
                 self.y = int(y_str)
-                self.face = face.upper()
+                face = face.upper()
                 
-                if self.face not in Face.objects.all():
-                    self.logger.Debug("Requested face " + self.face + " is not valid")
+                if Face.face_exists(face):
+                    self.logger.Debug("Requested face " + face + " is not valid")
                     return False
+                
+                self.face = Face[face]
                                 
                 return True
             except Exception as e:
