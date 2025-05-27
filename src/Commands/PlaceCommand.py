@@ -1,9 +1,9 @@
 from Commands.AbstractCommand import AbstractCommand
 from Utilities.Log import Log
+from Face import Face
 
 class PlaceCommand(AbstractCommand):
     logger:Log = None
-    ValidFaces = {"NORTH", "SOUTH", "EAST", "WEST"}
     face:str = None
     x:int = None
     y:int = None
@@ -27,7 +27,7 @@ class PlaceCommand(AbstractCommand):
                 self.y = int(y_str)
                 self.face = face.upper()
                 
-                if self.face not in self.ValidFaces:
+                if self.face not in Face.objects.all():
                     self.logger.Debug("Requested face " + self.face + " is not valid")
                     return False
                                 

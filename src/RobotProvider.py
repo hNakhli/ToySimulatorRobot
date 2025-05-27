@@ -1,4 +1,6 @@
 from Robot import Robot
+import numpy as np
+from Face import Face
 
 class RobotProvider:
     
@@ -27,9 +29,9 @@ class RobotProvider:
     Initializes / places a robot on the map if a robot does not exist - it will 
     initialize it
     '''
-    def place_robot(self, x:int, y:int, face):
+    def place_robot(self, x:int, y:int, face:Face):
         if self.identity in self.robot_list:
             self.robot_list[self.identity].UpdatePlacement(x, y, face)
             return
-        robot = Robot(self.identity, x, y, face)
+        robot = Robot(self.identity, np.array([x, y]), face)
         self.robot_list[self.identity] = robot

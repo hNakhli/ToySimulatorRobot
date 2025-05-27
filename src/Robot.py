@@ -1,31 +1,21 @@
 import numpy as np
+from Face import Face
 
 class Robot:
-    Position:np.array = ((0,0))
-    Direction:np.array = ((1,0))
+    Position:np.array = ([0, 0])
+    Direction:np.array = ([1, 0])
     Identity:str = None
-    Face = None
     
-    def __init__(self, identity:str, Position:np.array, Direction:np.array, face:str):
+    def __init__(self, identity:str, Position:np.array, face:Face):
         self.Position = Position
-        self.Direction = Direction
+        self.Direction = np.array([face.value[0], face.value[1]])
         self.Identity = identity
-        self.Face = face
         
     def Report(self) -> str:
-        return str(int(self.Position[0])) + "," + str(int(self.Position[1])) + "," + self.Face
+        face = Face.from_vector(self.Direction)
+        return str(int(self.Position[0])) + "," + str(int(self.Position[1])) + "," + face.name
     
-    def UpdatePlacement(self, x, y, face):
+    def UpdatePlacement(self, x, y, face: Face):
         self.Position = np.array((x, y))
-        self.ChangeFace(face)
+        self.Direction = np.array([face.value[0], face.value[1]])
         self.Face = face
-        
-    def RotateByAngle(self, angleInDegree):
-        pass
-    
-    def ChangeFace(self, face):
-        pass
-     
-    
-        
-        
