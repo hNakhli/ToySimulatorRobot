@@ -48,5 +48,3 @@ uv python install 3.12
 
 ## Visual Studio Code
 Ensure the recommended extensions are installed - since the development is on windows, the pytest.exe and python.exe paths on visual studio are changed to be relative to the .venv folder (in Scripts). Please feel free to adjust this if required.
-
-
