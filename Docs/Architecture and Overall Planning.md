@@ -2,9 +2,9 @@ For this exercise, we would need to extract the commands from a text file. Each 
 ![Updated Diagram](/Docs/Images/Updated%20Diagram.png)
 
 The implementation can be broken into the following tasks
-[TASK-3 Implement a logger](TASK-3%20Implement%20a%20logger.md)
-[TASK-4 Defining a generic parsing method and logging the results into the console](TASK-4%20Defining%20a%20generic%20parsing%20method%20and%20logging%20the%20results%20into%20the%20console.md)
-[TASK-5 implementing commands and validation](TASK-5%20implementing%20commands%20and%20validation.md)
+- [TASK-3 Implement a logger](TASK-3%20Implement%20a%20logger.md)
+- [TASK-4 Defining a generic parsing method and logging the results into the console](TASK-4%20Defining%20a%20generic%20parsing%20method%20and%20logging%20the%20results%20into%20the%20console.md)
+- [TASK-5 implementing commands and validation](TASK-5%20implementing%20commands%20and%20validation.md)
 
 Note: the name of Map was changed to Region as it was ambiguous (with the internal map function in python)
 ## Coordinate system
