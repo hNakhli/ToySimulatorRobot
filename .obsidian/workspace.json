@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Architecture and Overall Planning.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Architecture and Overall Planning"
+              "title": "README"
             }
           }
         ]
@@ -165,14 +165,14 @@
   },
   "active": "a77efcdbd768baf0",
   "lastOpenFiles": [
-    "Docs/Development and Build tools.md",
-    "Docs/Architecture and Overall Planning.md",
+    "Docs/Version 0.1.0/Mars Rover Technical Test - Python.pdf",
     "README.md",
+    "Docs/Architecture and Overall Planning.md",
+    "Docs/Development and Build tools.md",
     "tests/TryingAllCommands.txt",
     "tests/Example3 copy.txt",
     "tests/Commands/__pycache__/test_MoveCommand.cpython-312-pytest-8.3.5.pyc",
     "tests/Commands/test_MoveCommand.py",
-    "Docs/Version 0.1.0/Mars Rover Technical Test - Python.pdf",
     "tests/Example3.txt",
     "tests/Example3txt",
     "src/Examples/Example3 copy.txt",

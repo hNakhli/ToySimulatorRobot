@@ -1,5 +1,5 @@
 For this exercise, we would need to extract the commands from a text file. Each command would need to have an abstract parsing method and an abstract action. This way we would be able to extend it easily. A good starting point can be defining this abstract methods for parsing the text file. Currently the expected design would look something similar to the following diagram:
-![Updated Diagram](Updated%20Diagram.png)
+![Updated Diagram](/Docs/Images/Updated%20Diagram.png)
 
 The implementation can be broken into the following tasks
 [TASK-3 Implement a logger](TASK-3%20Implement%20a%20logger.md)
@@ -9,9 +9,9 @@ The implementation can be broken into the following tasks
 Note: the name of Map was changed to Region as it was ambiguous (with the internal map function in python)
 ## Coordinate system
 Normal Cartesian coordinate system has been used for this project as the robot is not performing any complex movements and the map is defined as a grid (rectangle/square).
-![Cartesian Coordinate System](Cartesian%20Coordinate%20System.png)
+![Cartesian Coordinate System](/Docs/Images/Cartesian%20Coordinate%20System.png)
 With respect to rotation and angles, the following convention is used:
-![Angles and units](Angles%20and%20units.png)
+![Angles and units](/Docs/Images/Angles%20and%20units.png)
 
 ## Helpers
 There are two helper classes added: 

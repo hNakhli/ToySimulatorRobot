@@ -31,7 +31,7 @@ $env:Path = "C:\Users\Hmnak\.local\bin;$env:Path"
 powershell -ExecutionPolicy Default
 ```
 7. Run/Test uv in PowerShell or cmd by typing uv - and delete the TempInstallationFolder:
-![uvCommand](uvCommand.png)
+![uvCommand](/Docs/Images/uvCommand.png)
 ### Steps to install python
 After uv is installed, attempt to install the required python version using the following command:
 ```
