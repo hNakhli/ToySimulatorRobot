@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Docs/Architecture and Overall Planning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Architecture and Overall Planning"
             }
           }
         ]
@@ -165,8 +165,8 @@
   },
   "active": "a77efcdbd768baf0",
   "lastOpenFiles": [
-    "Docs/Architecture and Overall Planning.md",
     "Docs/Development and Build tools.md",
+    "Docs/Architecture and Overall Planning.md",
     "README.md",
     "tests/TryingAllCommands.txt",
     "tests/Example3 copy.txt",

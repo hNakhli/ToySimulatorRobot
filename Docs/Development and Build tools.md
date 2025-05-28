@@ -1,6 +1,7 @@
 The following tools and packages have been used in making this project:
 - **Operating System**: Windows 10 - Version 22H2
 - **Notes and documentation:** Obsidian - Version 1.7.7 https://obsidian.md/
+	- *Note: I have modified all links to marksdown so they could be easily viewable from GitHub*
 - **Version Control:** Git CMD (windows) - Version 2.4.5.0.windows.1 https://gitforwindows.org/
 - **Python Package manager:** UV 0.7.8
 - **Python version:** 3.12.10 (cpython-3.12.10-windows-x86_64-none
@@ -8,7 +9,6 @@ The following tools and packages have been used in making this project:
 	- Official Microsoft Python Extension (version 2025.6.1)
 
 Note that in the project we would be using .toml file for package versions used inside the project, and visual studio recommended packages are located in .vscode folder
-
 ## Python and package manager installation
 In order to ensure the build system is common between all computers UV package management and virtual environments have been used. Although this is a fairly new package manager, but it provides lots of functionality which should allow an easier development. UV also handles dependency management and allows the team to sync their versions and libraries
 ### Steps to install uv:
@@ -31,7 +31,7 @@ $env:Path = "C:\Users\Hmnak\.local\bin;$env:Path"
 powershell -ExecutionPolicy Default
 ```
 7. Run/Test uv in PowerShell or cmd by typing uv - and delete the TempInstallationFolder:
-![[uvCommand.png]]
+![uvCommand](uvCommand.png)
 ### Steps to install python
 After uv is installed, attempt to install the required python version using the following command:
 ```
